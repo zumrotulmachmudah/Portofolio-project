@@ -1,0 +1,50 @@
+[
+    {
+      "id": 1,
+      "name": "Tempest",
+      "handle": "@points.travel.mama",
+      "niche": "Family Travel",
+      "followers": 45000,
+      "engagement_rate": 8.5,
+      "status": "Active",
+      "last_post": "2026-05-20",
+      "reach_last_month": 125000,
+      "roi": 3.2
+    },
+    {
+      "id": 2,
+      "name": "Maureen",
+      "handle": "@Sanur Soul Sister",
+      "niche": "Food & Lifestyle",
+      "followers": 32000,
+      "engagement_rate": 6.8,
+      "status": "Active",
+      "last_post": "2026-05-21",
+      "reach_last_month": 98000,
+      "roi": 2.8
+    },
+    {
+      "id": 3,
+      "name": "Tonia",
+      "handle": "@moretolife_co",
+      "niche": "Travel & Wellness",
+      "followers": 28000,
+      "engagement_rate": 7.2,
+      "status": "Pending",
+      "last_post": "2026-05-19",
+      "reach_last_month": 78000,
+      "roi": 2.5
+    },
+    {
+      "id": 4,
+      "name": "Evie",
+      "handle": "Mumpack Travel",
+      "niche": "Family Travel",
+      "followers": 55000,
+      "engagement_rate": 9.1,
+      "status": "Active",
+      "last_post": "2026-05-22",
+      "reach_last_month": 156000,
+      "roi": 4.1
+    }
+  ]

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marketing Dashboard - Influencer Performance Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>📊 Influencer Performance Dashboard</h1>
+            <p>Track collaborations, engagement, and ROI</p>
+        </header>
+
+        <div class="stats-grid">
+            <div class="stat-card">
+                <h3>Total Influencers</h3>
+                <p class="stat-number" id="total-influencers">0</p>
+            </div>
+            <div class="stat-card">
+                <h3>Avg Engagement Rate</h3>
+                <p class="stat-number" id="avg-engagement">0%</p>
+            </div>
+            <div class="stat-card">
+                <h3>Total Reach</h3>
+                <p class="stat-number" id="total-reach">0</p>
+            </div>
+            <div class="stat-card">
+                <h3>Avg ROI</h3>
+                <p class="stat-number" id="avg-roi">0x</p>
+            </div>
+        </div>
+
+        <div class="filters">
+            <label>Filter by Status:</label>
+            <select id="status-filter">
+                <option value="all">All</option>
+                <option value="Active">Active</option>
+                <option value="Pending">Pending</option>
+            </select>
+        </div>
+
+        <table class="dashboard-table">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Handle</th>
+                    <th>Niche</th>
+                    <th>Followers</th>
+                    <th>Engagement %</th>
+                    <th>Status</th>
+                    <th>Monthly Reach</th>
+                    <th>ROI</th>
+                </tr>
+            </thead>
+            <tbody id="table-body">
+            </tbody>
+        </table>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
